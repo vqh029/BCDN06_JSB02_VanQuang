@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 40px;
+    background-color: lightskyblue;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 6px;
+    padding: 10px 14px;
+    background-color: steelblue;
+    cursor: pointer;
+    display: block;
+    margin: 8px 0;
+    border: none;
+    color: #fff;
+}
+
+button:hover{
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    width: 250px;
+    display: block;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 6px 0;
+}
+
+label{
+    display: block;
+    margin-top: 8px;
+}

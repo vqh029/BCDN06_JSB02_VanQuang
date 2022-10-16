@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Bài 01</h1>
+            <p>Lương cơ bản: 100000 VND</p>
+            <label for="soNgayTL">Nhập số ngày công:</label>
+            <input type="number" id="soNgayTL" placeholder="Nhập số ngày công của bạn" />
+            <button type="submit" id="btnTongLuong">Tính tổng</button>
+            <p>Tiền lương của <span class="ngayLamViec"></span> ngày là: <span class="tienLuong"></span> VND</p>
+            <br>
+
+        </div>
+
+
+        <div>
+            <h1>Bài 02</h1>
+            <label for="so01">Nhập số thứ 1:</label>
+            <input type="number" id="so01" placeholder="Nhập số thứ nhất" />
+            <br>
+            <label for="so02">Nhập số thứ 2:</label>
+            <input type="number" id="so02" placeholder="Nhập số thứ hai" />
+            <br>
+            <label for="so03">Nhập số thứ 3:</label>
+            <input type="number" id="so03" placeholder="Nhập số thứ ba" />
+            <br>
+            <label for="so04">Nhập số thứ 4:</label>
+            <input type="number" id="so04" placeholder="Nhập số thứ bốn" />
+            <br>
+            <label for="so05">Nhập số thứ 5:</label>
+            <input type="number" id="so05" placeholder="Nhập số thứ năm" />
+
+            <button type="submit" id="btnTinhTB">Tính trung bình</button>
+            <p>Giá trị trung bình của 5 số vừa nhập là: <span class="trungBinh"> </span></p>
+            <br>
+        </div>
+
+
+        <div>
+            <h1>Bài 03</h1>
+            <p>1 USD = 23.500 VND</p>
+            <label for="soUSD">Nhập số USD cần đổi:</label>
+            <input type="number" id="soUSD" placeholder="Nhập số USD cần đổi" />
+            <button type="submit" id="btnQuyDoi">Tính tổng</button>
+            <p>Đổi được: <span class="tienVND"></span> VND</p>
+            <br>
+
+        </div>
+
+        <div>
+            <h1>Bài 04</h1>
+            <p>Diện tích và chu vi hình chữ nhật</p>
+            <label for="chieuDai">Nhập chiều dài:</label>
+            <input type="number" id="chieuDai" placeholder="Nhập chiều dài của hình chữ nhật" />
+
+            <label for="chieuRong">Nhập chiều rộng:</label>
+            <input type="number" id="chieuRong" placeholder="Nhập chiều rộng của hình chữ nhật" />
+            <button type="submit" id="btnTinhHCN">Tính chu vi và diện tích</button>
+            <p>Chu vi: <span class="chuViHCN"> </span></p>
+            <p>Diện tích: <span class="dienTichHCN"> </span></p>
+            <br>
+
+        </div>
+
+        <div>
+            <h1>Bài 05</h1>
+            <p>Tính tổng 2 ký số</p>
+            <label for="kySo">Nhập số có hai chữ số:</label>
+            <input type="number" id="kySo" placeholder="Nhập số có hai chữ số" min="10" max="99" />
+
+            <button type="submit" id="btnTinhKySo">Tính tổng ký số</button>
+            <p>Tổng: <span class="tongKySo"> </span></p>
+            <br>
+
+        </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
